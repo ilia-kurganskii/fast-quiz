@@ -9,12 +9,15 @@
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* FastQuizTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* FastQuizTests.m */; };
 		0AC0FFCF26F71802009A4D0C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0AC0FFCE26F71802009A4D0C /* GoogleService-Info.plist */; };
+		0CCA532E4C7542C292E767D0 /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 91138C1A765B4BD29214DF4A /* Inter-Regular.ttf */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		6172F2D35A4C3AA820D92908 /* libPods-FastQuiz.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6423831EA8574132BED9D8CC /* libPods-FastQuiz.a */; };
 		7EF68E3733C33B6898317E18 /* libPods-FastQuiz-FastQuizTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ABFE59519B596E51CEFDCCC0 /* libPods-FastQuiz-FastQuizTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		871E6685F8B040E999819B11 /* Inter-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 03AE6F3CA09A43AA891FAE13 /* Inter-Bold.ttf */; };
+		C08DCFA01B6B4B448344570A /* Inter-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5B9B772C626848AFA6BC0987 /* Inter-Medium.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +34,7 @@
 		00E356EE1AD99517003FC87E /* FastQuizTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FastQuizTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* FastQuizTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FastQuizTests.m; sourceTree = "<group>"; };
+		03AE6F3CA09A43AA891FAE13 /* Inter-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-Bold.ttf"; path = "../app/assets/fonts/Inter-Bold.ttf"; sourceTree = "<group>"; };
 		0AC0FFCE26F71802009A4D0C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* FastQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FastQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = FastQuiz/AppDelegate.h; sourceTree = "<group>"; };
@@ -39,9 +43,11 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = FastQuiz/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = FastQuiz/main.m; sourceTree = "<group>"; };
 		1D0AE47A65C8663E3B452821 /* Pods-FastQuiz-FastQuizTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FastQuiz-FastQuizTests.release.xcconfig"; path = "Target Support Files/Pods-FastQuiz-FastQuizTests/Pods-FastQuiz-FastQuizTests.release.xcconfig"; sourceTree = "<group>"; };
+		5B9B772C626848AFA6BC0987 /* Inter-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-Medium.ttf"; path = "../app/assets/fonts/Inter-Medium.ttf"; sourceTree = "<group>"; };
 		6423831EA8574132BED9D8CC /* libPods-FastQuiz.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FastQuiz.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C97AB639B58BBB4B15BBE30 /* Pods-FastQuiz-FastQuizTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FastQuiz-FastQuizTests.debug.xcconfig"; path = "Target Support Files/Pods-FastQuiz-FastQuizTests/Pods-FastQuiz-FastQuizTests.debug.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = FastQuiz/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		91138C1A765B4BD29214DF4A /* Inter-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Inter-Regular.ttf"; path = "../app/assets/fonts/Inter-Regular.ttf"; sourceTree = "<group>"; };
 		ABFE59519B596E51CEFDCCC0 /* libPods-FastQuiz-FastQuizTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FastQuiz-FastQuizTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0A881CF5CF3F2B244570E2A /* Pods-FastQuiz.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FastQuiz.debug.xcconfig"; path = "Target Support Files/Pods-FastQuiz/Pods-FastQuiz.debug.xcconfig"; sourceTree = "<group>"; };
 		D00AAFFCFCFDA5787532823F /* Pods-FastQuiz.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FastQuiz.release.xcconfig"; path = "Target Support Files/Pods-FastQuiz/Pods-FastQuiz.release.xcconfig"; sourceTree = "<group>"; };
@@ -99,6 +105,17 @@
 			name = FastQuiz;
 			sourceTree = "<group>";
 		};
+		175AFC76F86A4F44898EC9ED /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				03AE6F3CA09A43AA891FAE13 /* Inter-Bold.ttf */,
+				5B9B772C626848AFA6BC0987 /* Inter-Medium.ttf */,
+				91138C1A765B4BD29214DF4A /* Inter-Regular.ttf */,
+			);
+			name = Resources;
+			path = "";
+			sourceTree = "<group>";
+		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -125,6 +142,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				E233CBF5F47BEE60B243DCF8 /* Pods */,
+				175AFC76F86A4F44898EC9ED /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -249,6 +267,9 @@
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				0AC0FFCF26F71802009A4D0C /* GoogleService-Info.plist in Resources */,
+				871E6685F8B040E999819B11 /* Inter-Bold.ttf in Resources */,
+				C08DCFA01B6B4B448344570A /* Inter-Medium.ttf in Resources */,
+				0CCA532E4C7542C292E767D0 /* Inter-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

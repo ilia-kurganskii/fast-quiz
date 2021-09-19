@@ -1,6 +1,12 @@
 import {NavigationContainer} from "@react-navigation/native"
 import * as React from "react"
 
+import {AppNavigator} from "@features/app/navigation/app.navigation"
+
 export default function App() {
-  return <NavigationContainer>{/* Rest of your app code */}</NavigationContainer>
+  return (
+    <NavigationContainer>
+      <AppNavigator />
+    </NavigationContainer>
+  )
 }
